@@ -1,0 +1,68 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    background-color: #cccccc38;
+    margin-top: 15px;
+    border-radius: 25px;
+    max-width: 600px;
+    width: 100%;
+}
+.form .textInput{
+    border: none;
+    width: 400px;
+    height: 40px;
+}
+.form .submit-btn{
+    width: 100px;
+}
+.con{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+.con .tasks{
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    background-color: #cccccc38;
+    margin-top: 15px;
+    border-radius: 25px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.con .tasks .task{
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.con .tasks .task span{
+    float: right;
+    color: white;
+    background: red;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.con .tasks .task span:hover {
+    background-color: crimson;
+}
+.con .tasks .done{
+    background-color: #ccc;
+        padding: 20px;
+        border-radius: 25px;
+        margin-top: 15px;
+}
+
+.con .delete-all{
+    float: right;
+    position: relative;
+}
